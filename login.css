@@ -3,8 +3,8 @@
     margin: 0;
 }
 
-#body{
-    background-color: burlywood;
+body{
+    background-color: #F0F2F5;
 }
 
 #container{
@@ -19,6 +19,11 @@
     display: flex;
     flex-direction: column;
     width: 50%;
+}
+
+form p{
+    align-self: center;
+    font-size: 14px
 }
 
 p{
@@ -41,10 +46,33 @@ p{
 form{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 input{
     height: 40px;
     width: 250px;
     border-radius: 5px;
+    border-color: lightgray;
 }
+
+#entrar{
+    height: 40px;
+    width: 250px;
+    border-radius: 5px;
+    background-color: #1919e6;
+    border-color: blue;
+}
+
+#criar-conta{
+    height: 40px;
+    width: 250px;
+    border-radius: 5px;
+    background-color: lime;
+    border-color: green;
+}
+
+a{
+    align-self: center;  
+}
+
